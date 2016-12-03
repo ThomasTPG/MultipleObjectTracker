@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <thomas.tapemeasure.AspectFrameLayout
+        android:id="@+id/continuousCapture_afl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" >
+
+
+    </thomas.tapemeasure.AspectFrameLayout>
+
+    <thomas.tapemeasure.CameraOverlay
+        android:id="@+id/camera_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" >
+
+    </thomas.tapemeasure.CameraOverlay>
+
+
+
+
+
+
+</FrameLayout>
